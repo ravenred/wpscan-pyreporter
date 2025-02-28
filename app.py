@@ -1,6 +1,11 @@
 import streamlit as st
 from src.components import parser
 
+st.set_page_config(
+    page_title="wpscan reporter",
+    page_icon=" 📊"
+)
+
 st.title("wpscan - Reporter")
 st.text("Description of what this is......")
 
