@@ -3,7 +3,7 @@ from src.components import parser
 
 st.set_page_config(
     page_title="wpscan reporter",
-    page_icon=" 📊"
+    page_icon=" 📊",
 )
 
 st.title("wpscan - Reporter")
